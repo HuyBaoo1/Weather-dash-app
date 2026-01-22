@@ -436,7 +436,7 @@ const dailyWeather = {
     };
 
 
-    const OPENWEATHER_KEY = 'd747713518b09993dacf488f3b799c38';
+    const OPENWEATHER_KEY = 'API-KEY-HERE';
     const weatherService = new WeatherService(OPENWEATHER_KEY);
 
     weatherService.initializeGeolocation();
@@ -447,4 +447,5 @@ const dailyWeather = {
     selectedLocationWeather.initialize();
     globalWeather.initialize();
     
+
     
